@@ -1,6 +1,6 @@
 # timclifford.io
 
-https://github.com/timothyclifford/timclifford.io/tree/master
+http://timclifford.io
 
 ```
 hugo new site timclifford.io
