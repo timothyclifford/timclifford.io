@@ -7,8 +7,8 @@ paginate = 10
 
 [params]
 
-	title = "timclifford"
-	subtitle = "Subtitle subtitle subtitle"
+	title = "Tim Clifford"
+	subtitle = "Adventures in NULL REFERENCE EXCEPTION"
 	copyright = "Released under the MIT license."
 
 	# You can choose between green, orange, red and blue.
@@ -19,9 +19,9 @@ paginate = 10
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
 	name = "Tim Clifford"
-	bio = "Bio here"
-	description = "Blog description here"
-	location = "London, UK"
+	bio = "Australian software developer"
+	description = ""
+	location = "Currently in Shanghai, China"
 	twitter = "timothyclifford"
 	github = "timothyclifford"
 
@@ -32,7 +32,7 @@ paginate = 10
 	comments = ""
 
 	# Customize or translate the strings
-	keepReadingStr = "Keep reading"
+	keepReadingStr = "More"
 	backtotopStr = "Back to top"
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
