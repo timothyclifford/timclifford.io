@@ -1,24 +1,43 @@
 +++
 date = "2016-09-22T18:44:08+08:00"
-title = "Understanding ssh_username for Packer and AWS"
+title = "Packer ssh_username"
+tags = [
+  "packer.io", "linux", "ssh", "aws", "hashicorp"
+]
+categories = [
+  "aws", "packer.io", "hashicorp"
+]
+description = "Understanding ssh_username for Packer & AMIs"
 +++
+Doing some work with (Packer)[https://www.packer.io/] this week.
+
+Found when creating Amazon EBS-backed AMIs, the (ssh_username)[https://www.packer.io/docs/builders/amazon-ebs.html#ssh_username] must match the AMI default username.
+
+Makes sense in hindsight but caught me out and wasted several keystrokes!
+
+Here's an example Packer template:
 ```
 {
   "builders": [{
     ...
-    "ssh_username": "ec2-user",
+    "ssh_username": "$USER",
     ...
   }]
 }
 ```
 
-ssh_username should be...
+Where `$USER` for the following AMIs should be:
 
-AWS image
+### Amazon Linux
 ec2-user
 
-Ubuntu
+### Ubuntu
 ubuntu
 
-Centos
+### Centos
 centos
+
+### Fedora
+fedora
+
+etc etc etc

@@ -2,10 +2,10 @@
 date = "2016-06-16T17:10:00+10:00"
 title = "EC2 unprotected private key file"
 tags = [
-  "AWS", "EC2", "DevOps", "SSH", "private-key"
+  "aws", "ec2", "devops", "ssh", "private-key"
 ]
 categories = [
-  "AWS", "DevOps"
+  "aws", "devops"
 ]
 description = "SUCH WARNING! SO PERMISSIONS!"
 +++

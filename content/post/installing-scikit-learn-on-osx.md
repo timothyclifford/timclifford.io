@@ -2,10 +2,10 @@
 date = "2016-06-08T17:10:00+10:00"
 title = "OS X & sscikit-learn"
 tags = [
-  "Python", "sscikit-learn", "OSX"
+  "python", "sscikit-learn", "osx"
 ]
 categories = [
-  "Python", "MachineLearning"
+  "python", "machine-learning"
 ]
 description = "Getting started with sscikit-learn on OS X"
 +++

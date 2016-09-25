@@ -2,10 +2,10 @@
 date = "2016-09-12T13:59:33+08:00"
 title = "AWS S3 bucket user policy"
 tags = [
-  "AWS", "S3", "bucket-policy"
+  "aws", "s3", "bucket-policy"
 ]
 categories = [
-  "AWS"
+  "aws"
 ]
 description = "Allowing users to get all up in your buckets"
 +++
