@@ -8,7 +8,7 @@ paginate = 10
 [params]
 
 	title = "Tim Clifford"
-	subtitle = "Adventures in NULL REFERENCE EXCEPTION"
+	subtitle = "Adventures in NullReferenceException"
 	copyright = "Released under the MIT license."
 
 	# You can choose between green, orange, red and blue.
