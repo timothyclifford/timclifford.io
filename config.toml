@@ -14,14 +14,14 @@ paginate = 10
 	# You can choose between green, orange, red and blue.
 	themeColor = "blue"
 	# Enable Google Analytics be inserting your tracking code
-	googleAnalytics = ""
+	googleAnalytics = "UA-93815484-1"
 
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
 	name = "Tim Clifford"
-	bio = "Australian software developer"
+	bio = "Caffeine + disco = bugs"
 	description = ""
-	location = "Currently in Shanghai, China"
+	location = "Berlin"
 	twitter = "timothyclifford"
 	github = "timothyclifford"
 
@@ -29,7 +29,7 @@ paginate = 10
 	# You can choose between Disqus or Google Plus by setting comments
 	# to disqus or googleplus. For using Disqus you need to enter your
 	# shortname in disqusShortname at the top of the configs.
-	comments = ""
+	# comments = ""
 
 	# Customize or translate the strings
 	keepReadingStr = "More"
