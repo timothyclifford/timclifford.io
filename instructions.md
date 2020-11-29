@@ -93,3 +93,29 @@ yarn.lock
 package-lock.json
 public
 ```
+
+# install testing packages
+`yarn add -D jest @testing-library/react @types/jest babel-jest @testing-library/jest-dom @testing-library/user-event @testing-library/dom`
+
+# init test configurations
+`touch .babelrc jest.config.js jest.setup.ts`
+
+# populate .babelrc
+```
+{
+  "presets": [
+    "next/babel"
+  ]
+}
+```
+
+# populate jest.config.js
+```
+module.exports = {
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
+};
+```
+
+# populate jest.setup.ts
+`import '@testing-library/jest-dom';`

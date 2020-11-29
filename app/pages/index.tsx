@@ -1,13 +1,17 @@
+import { NextPage } from 'next';
 import Head from 'next/head';
+import Dummy from '../components/dummy/Dummy';
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Next.js Template</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p>Hello world</p>
+      <Dummy value="Hello World"></Dummy>
     </>
   );
-}
+};
+
+export default Home;
